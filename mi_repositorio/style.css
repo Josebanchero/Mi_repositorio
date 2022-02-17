@@ -1,0 +1,156 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 500px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+h5 {
+color: #111;
+}
+
+
+
+.body {
+   background-color: rgb(53, 52, 52);
+}
+
+.titulo {
+    color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    justify-content: space-evenly;
+
+    
+   
+}
+
+.menu {
+    color: teal;
+    background-color: rgb(73, 72, 72);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+    
+}
+
+ .pie {
+   color: teal;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   justify-content: space-evenly;
+   
+ }
+
+ .pie1 {
+   color: teal;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   justify-content: space-evenly;
+  
+ }
+
+ .parrafo {
+   color: whitesmoke;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   height: 150px;
+   padding: 10px;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   text-align: center;
+ }
+
+ .tabla {
+   color: whitesmoke;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   height: 300px;
+   width: 600px;
+   text-align: center;
+ }
+
+
+
+ .imagen {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+ }
+
+ .video {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+ }
+
+ .formulario {
+   color: whitesmoke;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+ }
+
+
+
+
+
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+
+
+
+
+nav {
+  grid-area: nav;
+}
+
+aside {
+  grid-area: publicidad;
+}
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(73, 72, 72);
+  text-align: justify;
+  justify-content: space-evenly;
+}
+
+li {
+  float: left;
+  text-align: justify;
+}
+
+li a {
+  display: block;
+  font-size: 20px;
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: space-evenly;
+}
+
+ul a:hover {
+  background-color: #111;
+}
+
