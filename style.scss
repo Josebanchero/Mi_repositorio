@@ -35,3 +35,49 @@ li {
     color: #111;
    }
   }
+
+  $redes: (
+    facebook: teal,
+    instagram: teal
+
+  );
+  @each $teal, $color in $redes {
+    .btn--#{$teal}{
+      background-color: $color;
+    }
+  }
+
+  .button-basic  {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-reset  {
+    @extend .button-basic;
+    background-color: rgb(73, 72, 72);
+    color: white
+  }
+  
+  .button-submit  {
+    @extend .button-basic;
+    background-color: rgb(28, 143, 127);
+    color: white;
+  }
+
+  @mixin sobre-nosotros {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid teal;
+  }
+  .parrafo {
+    @include sobre-nosotros;
+  }
+  .parrafo {
+    @include sobre-nosotros;
+    background-color: rgb(73, 72, 72);
+  }
+
